@@ -1,6 +1,7 @@
 # Lab 2 - Starter
 
 ## Structure
+```
 Lab2_Starter
 ├── index.html
 ├── images/
@@ -14,3 +15,4 @@ Lab2_Starter
 ├── part2.txt
 ├── screenshots
 └── README.md
+```

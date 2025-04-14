@@ -98,26 +98,26 @@
         <hr>
         <section id="form_section">
             <div>
-                <form action="">
+                <form action="submit">
                     <fieldset>
                         <h2>💬 Appointment with Us</h2>
                         <h3>Form</h3>
                         <div>
                             <div>Your Name:</div> 
-                            <input type="text" name="name" id="">
+                            <input type="text" name="name" id="text_input_name">
                         </div>
                         
                         <div>
                             <div>Your Contact Method: </div>
                             <span>
-                                <input type="radio" name="email" id="">E-mail
+                                <input type="radio" name="email" id="radio_input_email">E-mail
                             </span>
                             <span>
-                                <input type="radio" name="email" id="">Phone Numbers
+                                <input type="radio" name="phone_number" id="radio_input_phone_numebr">Phone Numbers
                             </span>
                         </div>
                         <div>
-                            <input type="text" name="contact_method" id="">
+                            <input type="text" name="contact_method" id="text_input_contact">
                         </div>
                         <div>
                             Your Question / Thoughts
@@ -130,19 +130,19 @@
                             </datalist>
                         </div>
                         <div>
-                            <textarea name="" id=""></textarea>
+                            <textarea name="description_question" id="text_area_description_question"></textarea>
                         </div>
                         <div>
-                            <input type="date" name="" id="">
+                            <input type="date" name="date_appoint" id="date_input">
                         </div>
-                        <select name="" id="">
+                        <select name="time" id="time_select">
                             <option value="">8:00 am</option>
                             <option value="">9:00 am</option>
                             <option value="">10:00 am</option>
                             <option value="">11:00 am</option>
                         </select>
                         <div>
-                            <input type="checkbox" name="subscription" id=""> Subscribe Us
+                            <input type="checkbox" name="subscription" id="checkbox_subscrip"> Subscribe Us
                         </div>
                         <button>Submit</button>
                     </fieldset>
