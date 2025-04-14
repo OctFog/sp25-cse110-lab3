@@ -1,5 +1,5 @@
 # Lab 2 - Starter
-
+👉 https://octfog.github.io/Lab2_Starter/
 ## Structure
 ```
 Lab2_Starter
@@ -14,5 +14,6 @@ Lab2_Starter
 │   └── Video.mp4
 ├── part2.txt
 ├── screenshots
+│   └── Screenshot_w3_checked.png
 └── README.md
 ```
