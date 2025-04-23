@@ -44,8 +44,8 @@
   
     nav {
         display: flex;
-        flex-direction: column;
-        gap: 10px;
+        flex-direction: row;
+        gap: 0px;
     }
   
     form div {
@@ -76,23 +76,30 @@
 /* Medium Devices (tablets, 600px to 1024px) */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
     body {
-    padding: 15px;
+        padding: 15px;
     }
 
     header h1 {
-    font-size: 2em;
+        font-size: 2em;
     }
 
     nav {
-    font-size: 1em;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        background-color: #f2f2f2;
+        padding: 10px;
+        border-radius: 12px;
+        font-size: 1.1em;
+        margin: 20px 0;
     }
 
     main {
-    padding: 15px;
+        padding: 15px;
     }
 
     form {
-    padding: 15px;
+        padding: 15px;
     }
 }
   
@@ -104,6 +111,17 @@
 
     main {
     max-width: 1000px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        background-color: #f2f2f2;
+        padding: 10px;
+        border-radius: 12px;
+        font-size: 1.1em;
+        margin: 20px 0;
     }
 }
   
@@ -141,15 +159,7 @@ header p {
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
     background-color: #f2f2f2;
-    padding: 10px;
-    border-radius: 12px;
-    font-size: 1.1em;
-    margin: 20px 0;
 }
   
 
@@ -158,10 +168,16 @@ nav a {
     text-decoration: none;
     font-weight: 500;
     margin: 0 15px;
+    padding: 5px;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #0071e3;
+    background-color: #0071e3;
+    color: white;
+    padding: 5px;
 }
 
 main {
@@ -207,6 +223,10 @@ img {
     max-width: 100%;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.recording {
+    display: grid;
 }
 
 audio, video {
@@ -270,6 +290,7 @@ footer {
     padding: 15px;
     border-radius: 12px;
     margin-top: 20px;
+    background-color: #d4d4d4;
 }
 
 footer a {
@@ -282,7 +303,26 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* === Flexbox Layout for Navigation and Footer === */
+.attendance {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-flow: column wrap;
+}
 
+.basic_info {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10px;
+    justify-items: center;
+    align-items: start;
+}
 
-  
+.business {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 10px;
+    justify-items: center;
+    align-items: start;
+}
