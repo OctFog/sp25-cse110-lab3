@@ -1,0 +1,288 @@
+/* 3rd Party Fonts */
+
+.mona-sans-<uniquifier> {
+    font-family: "Mona Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.winky-rough-<uniquifier> {
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.national-park-<uniquifier> {
+    font-family: "National Park", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
+}
+
+/* ========== Responsive Design ========== */
+
+/* Small Devices (phones, < 600px) */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+        font-size: 15px;
+    }
+  
+    header h1 {
+        font-size: 1.8em;
+    }
+  
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+  
+    form div {
+      flex-direction: column;
+    }
+  
+    input[type="text"],
+    input[type="date"],
+    textarea,
+    select {
+        font-size: 1em;
+        padding: 8px;
+    }
+  
+    button {
+        width: 100%;
+        font-size: 1em;
+    }
+  
+    img,
+    video,
+    audio {
+        width: 100%;
+        height: auto;
+    }
+}
+  
+/* Medium Devices (tablets, 600px to 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+    padding: 15px;
+    }
+
+    header h1 {
+    font-size: 2em;
+    }
+
+    nav {
+    font-size: 1em;
+    }
+
+    main {
+    padding: 15px;
+    }
+
+    form {
+    padding: 15px;
+    }
+}
+  
+/* Large Devices (desktop, >1024px) */
+@media screen and (min-width: 1025px) {
+    body {
+    padding: 40px;
+    }
+
+    main {
+    max-width: 1000px;
+    }
+}
+  
+/**/
+
+
+
+
+body {
+    background-color: #f4f4f7;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px; 
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #777;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 1.1em;
+    margin: 20px 0;
+}
+  
+
+nav a {
+    color: #0071e3;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+ul, ol {
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+details {
+    margin-top: 10px;
+}
+
+details summary {
+    font-size: 1.2em;
+    color: #0071e3;
+}
+
+details summary:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+audio, video {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+form {
+    background-color: #f9f9f9;
+    /* padding: 20px; */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="date"],
+/* input[type="radio"], */
+/* input[type="checkbox"], */
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #0071e3;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* === Flexbox Layout for Navigation and Footer === */
+
+
+  
