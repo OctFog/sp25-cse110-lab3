@@ -241,7 +241,6 @@ section:has(video) {
     padding: var(--recording-padding, 16px);
     border: 1px solid var(--recording-border, #ccc);
     border-radius: var(--recording-radius, 12px);
-    box-shadow: var(--recording-shadow, none);
     margin: 2rem auto;
     max-width: 90%;
     box-shadow: var(--recording-shadow, 0 0 0 transparent);
@@ -340,6 +339,9 @@ footer a:hover {
     flex-wrap: wrap;
     gap: 10px;
     flex-flow: column wrap;
+}
+
+.attendance {
     ul {
         > li {
           color: #151e74;
