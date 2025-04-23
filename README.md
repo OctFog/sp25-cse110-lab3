@@ -22,3 +22,9 @@ SP25-CSE110-Lab3
 │   └── Screenshot_w3_checked.png
 └── README.md
 ```
+
+## standup.md
+👉 https://github.com/OctFog/sp25-cse110-lab3/blob/main/docs/standup.md
+
+## The W3C CSS Validation
+![CSS_Validation](screenshots/w3c_css.png)
