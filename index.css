@@ -342,8 +342,8 @@ footer a:hover {
 }
 
 .attendance {
-    & .ul_attendance {
-        color: #151e74;
+    & > .ul_attendance {
+      color: #151e74;
     }
 }
 
