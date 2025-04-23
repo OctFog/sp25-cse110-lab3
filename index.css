@@ -233,10 +233,10 @@ img {
     --recording-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     --media-width: 100%;
     --media-max-width: 600px;
-  }
+}
   
-  section:has(audio), 
-  section:has(video) {
+section:has(audio), 
+section:has(video) {
     background-color: var(--recording-bg, #f9f9f9);
     padding: var(--recording-padding, 16px);
     border: 1px solid var(--recording-border, #ccc);
@@ -244,14 +244,15 @@ img {
     box-shadow: var(--recording-shadow, none);
     margin: 2rem auto;
     max-width: 90%;
-  }
+    box-shadow: var(--recording-shadow, 0 0 0 transparent);
+}
   
-  audio, video {
+audio, video {
     width: var(--media-width, 100%);
     max-width: var(--media-max-width, 600px);
     border-radius: var(--recording-radius, 12px);
     background-color: #000;
-  }
+}
   
 form {
     background-color: #f9f9f9;
@@ -339,8 +340,10 @@ footer a:hover {
     flex-wrap: wrap;
     gap: 10px;
     flex-flow: column wrap;
-    ul > li {
-        color: #151e74;
+    ul {
+        > li {
+          color: #151e74;
+        }
     }
 }
 
